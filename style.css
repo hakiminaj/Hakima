@@ -1,32 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header, nav, section, footer {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f4f4f4;
+.background-container {
+    background-image: url('https://jooinn.com/images/beauty-of-nature-24.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: peru;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+
+h1 {
+    font-size: 2em;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+p {
+    font-size: 2.2em;
 }
 
-a {
-    text-decoration: none;
-    color: #333;
-}
-
-a:hover {
-    color: #ff4500;
-}
+    
+    
